@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Barlow", sans-serif
+}
+
+.main {
+    display: flex;
+}
+
+.left {
+    background-color: rgb(167, 127, 99);
+    height: 100vh;
+    width: 15vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    padding: 50px;
+}
+
+.left .icon img{
+    width: 50px;
+}
+
+.left .para p{
+    font-style: italic;
+    font-weight: 600;
+    transform: rotate(90deg);
+    width: 250px;
+    font-size: 1.2rem;
+    letter-spacing: 2.5px;
+}
+
+.right {
+    background-color: rgb(154, 102, 65);
+    padding: 2rem;
+    width: 85vw;
+    color: white;
+    height: 100vh;
+}
+
+.navbar {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    height: 3rem;
+    border-radius: 20px;
+    padding: 16px;
+    background-color: rgb(154, 123, 101);
+    margin-bottom: 100px;;
+}
+
+.options {
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.icons {
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.hero {
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right .hero-left {
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    align-items: start;
+}
+
+.hero-right img {
+    height: 500px;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+button {
+    color: black;
+    padding: 20px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.hero img:hover {
+    scale: 1.1;
+    transition: ease-in 1s;
+}
